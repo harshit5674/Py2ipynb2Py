@@ -15,8 +15,8 @@ def pytoipy(file_path_,file_name_):
 	            Path of the source python script
 				which has to be converted.
 	file_name_: string
-				Path of the corresponding converted
-				python notebook.
+		    Path of the corresponding converted
+		    python notebook.
 	"""
 
 	f=open(file_path_,"r")
@@ -95,22 +95,22 @@ def build_cell(current_source,id_number,add_comma,file_,cell_type):
 	Parameters
 	----------
 	current_source: list of strings 
-					which contain the source code or markdown
-					of the cell to be built.
+		        which contain the source code or markdown
+			of the cell to be built.
 	id_number: int
-			   id number of the cell being built.
+	           id number of the cell being built.
 	add_comma: bool
-			   True if a comma has to added after writing the cell.
-			   False if the current cell is the last one.
+		   True if a comma has to added after writing the cell.
+		   False if the current cell is the last one.
 	file_: file object
-		   File object in which the the program writes.
+	       File object in which the the program writes.
 	cell_type: string
-			   Specifies if the cell is markdown or code type.
+		   Specifies if the cell is markdown or code type.
 
 	Returns
 	-------
 	id_number: int
-			   id_number of the next cell to be built.
+		   id_number of the next cell to be built.
 	"""
 
 	current_source_parsed=""
@@ -196,7 +196,7 @@ def add_metadata(file_):
 	Parameters
 	----------
 	file_: file object
-		   File object which the program writes.
+	       File object which the program writes.
 
 	"""
 		    
