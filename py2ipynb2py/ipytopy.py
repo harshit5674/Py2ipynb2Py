@@ -36,7 +36,6 @@ def ipytopy(file_path_,file_name_):
 			if data['cells'][i]['cell_type']=='markdown':
 
 				"""Special markdown syntax"""
-
 				fe.write("'''")
 				fe.write("--Markdown--")
 				fe.write('\n')
@@ -50,7 +49,6 @@ def ipytopy(file_path_,file_name_):
 				fe.write('\n')
 				fe.write('\n')
 			else:
-
 				if len(data['cells'][i]['source'])==1:
 					for x in data['cells'][i]['source']:
 						if x[0]=='%':
