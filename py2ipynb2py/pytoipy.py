@@ -50,7 +50,7 @@ def pytoipy(file_path_,file_name_):
 	""" 
 
 	if_markdown=False
-	library_name='python_project.convertor('
+	library_name='py2ipynb2py.convertor('
 	l=len(library_name)
 
 	for x in file_strings:
@@ -63,6 +63,8 @@ def pytoipy(file_path_,file_name_):
 		if(len(x)==15):
 			if(x=="'''--Markdown--"):
 				if_markdown=True
+				if len(cell_container)!=0:
+					build_cell(cell_container,id_number,i==r,file_,"code")
 				cell_container=[]
 				continue
 

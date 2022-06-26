@@ -25,7 +25,7 @@ def ipytopy(file_path_,file_name_):
 	data=json.load(f)
 	f.close()
 
-	library_name='python_project.convertor('
+	library_name='py2ipynb2py.convertor('
 	l=len(library_name)
 
 	"""fe is the file object of the file in which the program
@@ -86,9 +86,9 @@ def ipytopy(file_path_,file_name_):
 								continue
 
 							if y.isalnum()==False and y!='_':
-								fe.write(x)
 								if(x[:l]==library_name):
 									x=x[0:-7]+'py'+x[l]+')'
+								fe.write(x)
 
 								fe.write('\n')
 								break
