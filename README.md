@@ -23,6 +23,9 @@ With py2ipynb2py you can easily convert .py to .ipynb and vice versa, it also th
 
 While the famouse nbconvert library lets you convert .ipynb to .py, it does not let you convert .py to .ipynb and there is no feature to keep both the file in sync and maintainble.
 
-#Installation
+# Installation
+'''
+pip3 install py2ipynb2py
+'''
 
 
