@@ -42,7 +42,7 @@ py2ipynb2py.convertor('PATH_OF_FILE')
 __Note that__
 * __PATH_OF_FILE__ represents path of your notebook or script.
 * One just has to add this path to only one time either to you notebook or script, when you convert the respective one time it automatically takes care of the path.
-* __Windows Users__ when adding path use '\\' instead of '\'
+* __Windows Users__ when adding path use '\\\\' instead of '\\'
 
 One can add this function anywhere in his/her program.
 
