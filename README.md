@@ -2,7 +2,7 @@
 
 __py2ipynb2py__ is a python module which aims to bridge the gap between Python scripts and Python notebooks by letting the user convert .py to .ipynb and vice versa and lets the user keep both the files in sync.
 
-#Why use it
+##Why use it
 
 Python notebooks and scripts serve almost the same function that is running python code, yet they appear to be such different entities with different pros and cons.
 
