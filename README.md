@@ -29,7 +29,7 @@ pip3 install py2ipynb2py
 ```
 
 # Documentation
-Its very easy to use this library.
+When writing you python script if you leave a blank between two lines those two lines will be in __different cells__.
 
 First __import__ py2ipynb2py
 ```
@@ -42,6 +42,21 @@ py2ipynb2py.convertor('PATH_OF_FILE')
 __Note that__
 * __PATH_OF_FILE__ represents path of your notebook or script.
 * One just has to add this path to only one time either to you notebook or script, when you convert the respective one time it automatically takes care of the path.
-* __Windows Users__ when adding path use // instead of /
+* __Windows Users__ when adding path use \\ instead of \
 
-You can add this function anywhere in your program.
+One can add this function anywhere in his/her program.
+
+## Markdown
+
+Whenever one wants to do markdown in his/her python script
+Use
+```
+'''--Markdown--
+Whatever you want to 
+write in the markdown.
+--Markdown--'''
+```
+
+Note that this will also be the syntax when a markdown in converted from .ipynb to .py.
+
+One additional feature of Notebooks is you can just write variable name at the end of the cell and it will print the value of that variable, this does not serve any purpose in the python script, so these would be removed during conversion.
