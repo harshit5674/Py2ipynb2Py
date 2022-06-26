@@ -60,3 +60,5 @@ write in the markdown.
 Note that this will also be the syntax when a markdown in converted from .ipynb to .py.
 
 One additional feature of Notebooks is you can just write variable name at the end of the cell and it will print the value of that variable, this does not serve any purpose in the python script, so these would be removed during conversion.
+
+__Just Remember to SAVE the file before running it for the purpose of conversion.__
