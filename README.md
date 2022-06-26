@@ -28,4 +28,20 @@ While the famouse nbconvert library lets you convert .ipynb to .py, it does not 
 pip3 install py2ipynb2py
 ```
 
+# Documentation
+Its very easy to use this library.
 
+First __import__ py2ipynb2py
+```
+import py2ipynb2py
+```
+then add the following function
+```
+py2ipynb2py.convertor('PATH_OF_FILE')
+```
+__Note that__
+* __PATH_OF_FILE__ represents path of your notebook or script.
+* One just has to add this path to only one time either to you notebook or script, when you convert the respective one time it automatically takes care of the path.
+* __Windows Users__ when adding path use // instead of /
+
+You can add this function anywhere in your program.
