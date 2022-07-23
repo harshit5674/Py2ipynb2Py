@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+py2ipynb2py/__init__.py
+py2ipynb2py/ipytopy.py
+py2ipynb2py/main.py
+py2ipynb2py/pytoipy.py
+py2ipynb2py.egg-info/PKG-INFO
+py2ipynb2py.egg-info/SOURCES.txt
+py2ipynb2py.egg-info/dependency_links.txt
+py2ipynb2py.egg-info/top_level.txt

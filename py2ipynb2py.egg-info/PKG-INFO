@@ -1,20 +1,22 @@
-from setuptools import setup, find_packages
-import codecs
-import os
+Metadata-Version: 2.1
+Name: py2ipynb2py
+Version: 0.0.4
+Summary: Converts py to ipynb and vice versa, also syncs them
+Author: harshit5674 (Harshit Verma)
+Author-email: <verma08harshit@gmail.com>
+License: UNKNOWN
+Keywords: python,jupyter,convertor,python to jupyter notebook,jupyter notebook to python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
 
-VERSION = '0.0.4'
-DESCRIPTION = 'Converts py to ipynb and vice versa, also syncs them'
-
-# Setting up
-setup(
-    name="py2ipynb2py",
-    version=VERSION,
-    author="harshit5674 (Harshit Verma)",
-    author_email="<verma08harshit@gmail.com>",
-    description=DESCRIPTION,
-    packages=find_packages(),
-    install_requires=[],
-	long_description="""# Py2ipynb2Py
+# Py2ipynb2Py
 
 __py2ipynb2py__ is a python module which aims to bridge the gap between Python scripts and Python notebooks by letting the user convert .py to .ipynb and vice versa and lets the user keep both the files in sync.
 
@@ -58,7 +60,7 @@ py2ipynb2py.convertor('PATH_OF_FILE')
 __Note that__
 * __PATH_OF_FILE__ represents path of your notebook or script.
 * One just has to add this path to only one time either to you notebook or script, when you convert the respective one time it automatically takes care of the path.
-* __Windows Users__ when adding path use '\\\\' instead of '\\'
+* __Windows Users__ when adding path use '\\' instead of '\'
 
 One can add this function anywhere in his/her program.
 
@@ -77,16 +79,5 @@ Note that this will also be the syntax when a markdown in converted from .ipynb 
 
 One additional feature of Notebooks is you can just write variable name at the end of the cell and it will print the value of that variable, this does not serve any purpose in the python script, so these would be removed during conversion.
 
-__Just Remember to SAVE the file before running it for the purpose of conversion.__""",
-    long_description_content_type='text/markdown',
-    keywords=['python','jupyter','convertor','python to jupyter notebook','jupyter notebook to python'],
-    classifiers=[
-	"Development Status :: 5 - Production/Stable",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
+__Just Remember to SAVE the file before running it for the purpose of conversion.__
 
-)
