@@ -19,7 +19,7 @@ production calculations not agreeing with those in the research.
 ## Jupyter notebook Advantages
 * You can execute the code and see the magic instantly.
 * You can run cells independently and see several outputs without running all of the program.
-* Easy and coonvinient to use.
+* Easy and convenient to use.
 
 With py2ipynb2py you can easily convert .py to .ipynb and vice versa, it also then keeps both the files in sync. Markdows are preserved, i.e. even if your jupyter notebook has images these are conserved when you convert it to .py and that .py file is compilable even while maintaining all the markdowns. You can even add markdows in python files using py2ipynb2py's special syntax.
 
